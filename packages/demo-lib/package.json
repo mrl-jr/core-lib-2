@@ -1,6 +1,6 @@
 {
   "name": "@mrl.jr.dev/demo-lib",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A demo library with utility functions for greetings, calculations, and date formatting",
   "keywords": [
     "demo",
