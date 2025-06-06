@@ -4,6 +4,9 @@
   "include": [],
   "references": [
     {
+      "path": "../../packages/demo-lib"
+    },
+    {
       "path": "./tsconfig.app.json"
     }
   ]

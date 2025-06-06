@@ -4,7 +4,7 @@ import {
   calculateSum,
   formatDate,
   DemoResult,
-} from '@core-lib/demo-lib';
+} from '../../../../packages/demo-lib/src/index.js';
 
 export class AppElement extends HTMLElement {
   public static observedAttributes = [];
