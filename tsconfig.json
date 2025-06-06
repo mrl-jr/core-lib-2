@@ -5,6 +5,15 @@
   "references": [
     {
       "path": "./packages/conformance-rules"
+    },
+    {
+      "path": "./apps/core-lib"
+    },
+    {
+      "path": "./packages/demo-lib"
+    },
+    {
+      "path": "./apps/demo-app"
     }
   ]
 }
