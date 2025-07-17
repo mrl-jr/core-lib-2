@@ -1,0 +1,12 @@
+[NX v21.1.3 Daemon Server] - 2025-07-17T18:51:37.258Z - Started listening on: /var/folders/48/6slnjvrn5zv2px1q01k2zlqm0000gn/T/693ce3a8ce2b88917194/d.sock
+[NX v21.1.3 Daemon Server] - 2025-07-17T18:51:37.259Z - [WATCHER]: Subscribed to changes within: /Users/mark/dev/conformance-repo/core-lib-2/working (native)
+[NX v21.1.3 Daemon Server] - 2025-07-17T18:51:37.264Z - Established a connection. Number of open connections: 1
+[NX v21.1.3 Daemon Server] - 2025-07-17T18:51:37.264Z - Established a connection. Number of open connections: 2
+[NX v21.1.3 Daemon Server] - 2025-07-17T18:51:37.265Z - Closed a connection. Number of open connections: 1
+[NX v21.1.3 Daemon Server] - 2025-07-17T18:51:37.265Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v21.1.3 Daemon Server] - 2025-07-17T18:51:37.265Z - Done responding to the client Shutdown initiated
+[NX v21.1.3 Daemon Server] - 2025-07-17T18:51:37.266Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX v21.1.3 Daemon Server] - 2025-07-17T18:51:37.267Z - [WATCHER]: Stopping the watcher for /Users/mark/dev/conformance-repo/core-lib-2/working (sources)
+[NX v21.1.3 Daemon Server] - 2025-07-17T18:51:37.267Z - Closed a connection. Number of open connections: 0
+[NX v21.1.3 Daemon Server] - 2025-07-17T18:51:37.267Z - [WATCHER]: Stopping the watcher for /Users/mark/dev/conformance-repo/core-lib-2/working (outputs)
+[NX v21.1.3 Daemon Server] - 2025-07-17T18:51:37.267Z - Server stopped because: "Request to shutdown"

@@ -1,0 +1,315 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.1.3",
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/js/typescript",
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        }
+      }
+    },
+    {
+      "name": "@nx/vite/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "testTargetName": "test",
+        "serveTargetName": "serve",
+        "devTargetName": "dev",
+        "previewTargetName": "preview",
+        "serveStaticTargetName": "serve-static",
+        "typecheckTargetName": "typecheck",
+        "buildDepsTargetName": "build-deps",
+        "watchDepsTargetName": "watch-deps"
+      }
+    },
+    {
+      "name": "@nx/js/typescript",
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        },
+        "build": {
+          "targetName": "build",
+          "configName": "tsconfig.lib.json"
+        }
+      }
+    }
+  ],
+  "fileMap": {
+    "projectFileMap": {
+      "@mrl.jr.dev/demo-lib": [
+        {
+          "file": "packages/demo-lib/README.md",
+          "hash": "7960010151224126028"
+        },
+        {
+          "file": "packages/demo-lib/core-lib-demo-lib-0.0.1.tgz",
+          "hash": "11933681379193045236"
+        },
+        {
+          "file": "packages/demo-lib/package.json",
+          "hash": "8455493856894666157"
+        },
+        {
+          "file": "packages/demo-lib/src/index.ts",
+          "hash": "15611446541133424739"
+        },
+        {
+          "file": "packages/demo-lib/src/lib/demo-lib.spec.ts",
+          "hash": "8731048039080597963"
+        },
+        {
+          "file": "packages/demo-lib/src/lib/demo-lib.ts",
+          "hash": "12564269470685604546"
+        },
+        {
+          "file": "packages/demo-lib/tsconfig.json",
+          "hash": "12834038490315927699"
+        },
+        {
+          "file": "packages/demo-lib/tsconfig.lib.json",
+          "hash": "15519300995279204799"
+        },
+        {
+          "file": "packages/demo-lib/tsconfig.spec.json",
+          "hash": "12757693314151657395"
+        },
+        {
+          "file": "packages/demo-lib/vite.config.ts",
+          "hash": "17795845768877094778",
+          "deps": [
+            "npm:vite",
+            "npm:vite-plugin-dts"
+          ]
+        }
+      ],
+      "conformance-rules": [
+        {
+          "file": "packages/conformance-rules/README.md",
+          "hash": "2043983627526407567"
+        },
+        {
+          "file": "packages/conformance-rules/package.json",
+          "hash": "1182118411559712476"
+        },
+        {
+          "file": "packages/conformance-rules/src/example-conformance-rule/index.ts",
+          "hash": "14004788199794181947",
+          "deps": [
+            "npm:@nx/conformance"
+          ]
+        },
+        {
+          "file": "packages/conformance-rules/src/example-conformance-rule/schema.json",
+          "hash": "16654454498549244862"
+        },
+        {
+          "file": "packages/conformance-rules/tsconfig.json",
+          "hash": "15856989918287211863"
+        },
+        {
+          "file": "packages/conformance-rules/tsconfig.lib.json",
+          "hash": "11089583601747277462"
+        }
+      ],
+      "@core-lib/source": [
+        {
+          "file": "CHANGELOG.md",
+          "hash": "2514004919861048933"
+        },
+        {
+          "file": "PROJECT_SUMMARY.md",
+          "hash": "16385889336858917202"
+        },
+        {
+          "file": "PUBLISHING_GUIDE.md",
+          "hash": "5560251286256099646"
+        },
+        {
+          "file": "README.md",
+          "hash": "16783759755532358654"
+        },
+        {
+          "file": "nx.json",
+          "hash": "16571892477761634750"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "18283647775541434191"
+        },
+        {
+          "file": "package.json",
+          "hash": "35073600267244734",
+          "deps": [
+            "npm:@nx/devkit",
+            "npm:@nx/esbuild",
+            "npm:@nx/js",
+            "npm:@nx/vite",
+            "npm:@nx/web",
+            "npm:@nx/workspace",
+            "npm:@swc-node/register",
+            "npm:@swc/core",
+            "npm:@swc/helpers",
+            "npm:@types/node",
+            "npm:@vitest/coverage-v8",
+            "npm:@vitest/ui",
+            "npm:ajv",
+            "npm:jiti",
+            "npm:jsdom",
+            "npm:nx",
+            "npm:prettier",
+            "npm:swc-loader",
+            "npm:tslib",
+            "npm:typescript",
+            "npm:verdaccio",
+            "npm:vite",
+            "npm:vite-plugin-dts",
+            "npm:vitest",
+            "npm:@nx/conformance"
+          ]
+        },
+        {
+          "file": "tsconfig.base.json",
+          "hash": "8900268571896142108"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "190037216837168596"
+        },
+        {
+          "file": "vitest.workspace.ts",
+          "hash": "4665328684042819579"
+        }
+      ],
+      "@core-lib/core-lib": [
+        {
+          "file": "apps/core-lib/.babelrc",
+          "hash": "11877436663910714680"
+        },
+        {
+          "file": "apps/core-lib/.swcrc",
+          "hash": "9921579498929141427"
+        },
+        {
+          "file": "apps/core-lib/index.html",
+          "hash": "655277129957643600"
+        },
+        {
+          "file": "apps/core-lib/package.json",
+          "hash": "16866908465801227303"
+        },
+        {
+          "file": "apps/core-lib/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/core-lib/src/app/app.element.css",
+          "hash": "17325190473532207102"
+        },
+        {
+          "file": "apps/core-lib/src/app/app.element.spec.ts",
+          "hash": "8100823567078525879"
+        },
+        {
+          "file": "apps/core-lib/src/app/app.element.ts",
+          "hash": "18116287415552179417"
+        },
+        {
+          "file": "apps/core-lib/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/core-lib/src/main.ts",
+          "hash": "466268443977743393"
+        },
+        {
+          "file": "apps/core-lib/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/core-lib/tsconfig.app.json",
+          "hash": "15637755975566817076"
+        },
+        {
+          "file": "apps/core-lib/tsconfig.json",
+          "hash": "6240538891403235665"
+        },
+        {
+          "file": "apps/core-lib/vite.config.ts",
+          "hash": "2456858651028297013",
+          "deps": [
+            "npm:vite"
+          ]
+        }
+      ],
+      "@core-lib/demo-app": [
+        {
+          "file": "apps/demo-app/.babelrc",
+          "hash": "11877436663910714680"
+        },
+        {
+          "file": "apps/demo-app/.swcrc",
+          "hash": "9921579498929141427"
+        },
+        {
+          "file": "apps/demo-app/index.html",
+          "hash": "1408411262464711038"
+        },
+        {
+          "file": "apps/demo-app/package.json",
+          "hash": "5505896719096917042"
+        },
+        {
+          "file": "apps/demo-app/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/demo-app/src/app/app.element.css",
+          "hash": "10164985367034283678"
+        },
+        {
+          "file": "apps/demo-app/src/app/app.element.spec.ts",
+          "hash": "2553638764799814994"
+        },
+        {
+          "file": "apps/demo-app/src/app/app.element.ts",
+          "hash": "605858459254343429",
+          "deps": [
+            "@mrl.jr.dev/demo-lib"
+          ]
+        },
+        {
+          "file": "apps/demo-app/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/demo-app/src/main.ts",
+          "hash": "466268443977743393"
+        },
+        {
+          "file": "apps/demo-app/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/demo-app/tsconfig.app.json",
+          "hash": "12955418715154415896"
+        },
+        {
+          "file": "apps/demo-app/tsconfig.json",
+          "hash": "14707936876290439814"
+        },
+        {
+          "file": "apps/demo-app/vite.config.ts",
+          "hash": "11719876578429931625",
+          "deps": [
+            "npm:vite"
+          ]
+        }
+      ]
+    },
+    "nonProjectFiles": []
+  }
+}
